@@ -1,0 +1,18 @@
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    gap: 20px;/* Set the height of the container to 100% viewport height */
+
+    /* Optional: Add additional styles to adjust spacing if needed */
+   
+   
+}
+
+.buttons button {
+    font-size: 50px;
+    border-radius: 5px;
+    
+}
