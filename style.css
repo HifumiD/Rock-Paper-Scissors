@@ -1,18 +1,88 @@
-.buttons{
+.whole{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Header styles */
+.header {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 3px #010000, 2px 2px 0px #010000, 4px 5px 0px #010000, 4px 6px 0px #010000;
+    -webkit-text-stroke-width: 0.2px;
+    -webkit-text-stroke-color: black;
+  }
+
+  .score{
     display: flex;
-    flex-direction: row;
+    flex-direction: row ;
+    text-align: center;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
-    gap: 20px;/* Set the height of the container to 100% viewport height */
+    gap: 50px;
+    font-size: 30px;
+    color: white;
+    margin: 0px;
+    font-family: MRK Maston Pro, sans-serif;
+  }
+  
+  /* Player and computer choice container styles */
+  .player-choice,
+  .computer-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    height: 150px;
+    box-shadow: 0 0 5px 0 ;
+    background: inherit;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
 
-    /* Optional: Add additional styles to adjust spacing if needed */
-   
-   
-}
-
-.buttons button {
-    font-size: 50px;
-    border-radius: 5px;
+    font-size: large;
+    color: white;
+  }
+  
+  /* Player and computer choice image styles */
+  .player-choice img,
+  .computer-choice img {
+    height: 100px;
+  }
+  
+  /* Computer choice container styles */
+  .computer-choice {
+    width: 300px;
+    height: 250px;
+  }
+  
+  /* Choices container styles */
+  .choices {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
     
-}
+    gap: 30px;
+    
+    width: 300px;
+    box-shadow: 0 0 5px 0 ;
+    background: inherit;
+    backdrop-filter: blur(20px);
+    border-radius: 8px;
+    
+  }
+  
+  /* Choice image hover style */
+  .choices img:hover {
+    cursor: pointer;
+  }
+  
+  /* Body background styles */
+  body {
+    background-image: url('images/pexels-pixabay-531880.jpg');
+  background-color: #cccccc;
+  }

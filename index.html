@@ -2,24 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <script src="rps.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Document</title>
 </head>
 <body>
-    <H2>Your core</H2>
-    <h2 id="Score">0</h2>
-
-    <H2>AI Score</H2>
-    <h2 id="aiScore">0</h2>
-
-    <div class="buttons">
-    <button id="Rock">Rock</button>
-    <button id="Paper">Paper</button>
-    <button id="Scissors">Scissors</button>
-
-    <script src="rps.js"></script>
+    <div class="whole">
+    <h3 class="header">Rock Paper Scissors</h3>
+    <div class="computer-choice" id="computerImage">
     </div>
+
+    
+    <div class="score">
+        <h2 id="playercount">0</h2>
+         <h2 id='status'class="Status" >N/0</h2>  
+         <h2 id="computercount">0</h2>
+        </div>
+    
+    
+    <div class="player-choice" id="playerImage">You</div>
+
+    <div class="choices">
+        <img class="button" id="Rock" src="images/rock.png" height="50px">
+        <img class="button" id="Paper" src="images/g.png" height="50px">
+        <img class="button" id='Scissors' src="images/scissors.png" width="50px" height="60px">
+    </div>
+</div>
+    <script src="script.js"></script>
 </body>
 </html>
